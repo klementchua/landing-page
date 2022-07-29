@@ -4,7 +4,7 @@ body {
     font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: column;
-    height: 250vh;
+    height: 200vh;
     margin: 0;
     padding: 0;
 }
@@ -133,11 +133,66 @@ a {
 .quote {
     flex: 1;
     display: flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 25vw;
+}
+
+.quotetext {
+    font-size: 48px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: light;
+}
+
+.quoteauthor {
+    align-self: flex-end;
+    font-size: 30px;
+    color: #1f2937;
+    font-weight: bolder;
+    margin-right: 3vw;
 }
 
 .signupcall {
-    flex: 1;
+    flex: 0.75;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15vw;
+}
+
+.signupcontainer {
+    display: flex;
+    background-color: #3882F6;
+    flex: 1;
+    height: 20vh;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 7vw;
+    gap: 8vw;
+}
+
+.signupcontainer div {
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    gap: 5px;
+}
+
+.calltoaction {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.button.bottom button {
+    border: 3px #f9faf8 solid;
+    background-color: #3882F6;
+    color: #f9faf8;
+    width: 8vw;
 }
 
 .footer {
